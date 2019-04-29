@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid</title>
+    <meta charset="utf-8" />
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../res/sample.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container sample sample-col">
+        <div class="row">
+            <span class="d-md-none d-sm-none d-none d-lg-inline">LG</span>
+            <span class="d-lg-none d-sm-none d-none d-md-inline">MD</span>
+            <span class="d-lg-none d-md-none d-sm-inline d-none">SM</span>
+            <span class="d-lg-none d-md-none d-sm-none d-inline">XS</span>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                Klein: 12 Tablet: 6 Groß: 8
+            </div>
+            <div class="col-sm-6 col-md-4">
+                Klein: 6 Groß: 4
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">A Klein: 6 Tablet: 4</div>
+            <div class="col-sm-6 col-md-4">B Klein: 6 Tablet: 4</div>
+            <!-- Optional: Umbruch auf anderer Höhe -->
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-sm-6 col-md-4">C Klein: 6 Tablet: 4</div>
+        </div>
+    </div>
+</body>
+</html>

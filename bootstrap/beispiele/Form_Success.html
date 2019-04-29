@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Forms</title>
+  <meta charset="utf-8" />
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="../node_modules/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <link href="../res/sample.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container sample sample-form">
+    <form class="form-inline">
+      <div class="form-group has-feedback">
+        <label class="form-control-label" for="inputSuccess4">Erfolg</label>
+        <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status">
+        <div class="input-group-append border-left-0 bg-white border">
+          <span class="fa fa-check form-control-feedback p-2" aria-hidden="true"></span>
+        </div>
+        <span id="inputSuccess4Status" class="sr-only">(Erfolg)</span>
+      </div>
+    </form>
+    <form class="form-inline">
+      <div class="form-group has-feedback">
+        <label class="form-control-label" for="inputGroupSuccess3">Erfolgreiche Gruppe</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">@</span>
+          </div>
+          <input type="text" class="form-control border-right-0" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+          <div class="input-group-append border-left-0 bg-white border">
+            <span class="fa fa-close form-control-feedback p-2" aria-hidden="true"></span>
+          </div>
+        </div>
+        <span id="inputGroupSuccess3Status" class="sr-only">(Erfolg)</span>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
